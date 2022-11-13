@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#counter {
+    /* background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/setu.png); */
+    background: linear-gradient(rgb(5, 197, 245),
+            rgba(69, 7, 184, 0.795),
+            rgba(149, 7, 184, 0.527),
+            rgba(73, 248, 3, 0.493));
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 10px;
+}
+
+/* .container{
+    width: 1320px;
+    margin: 0 auto;
+} */
+
+.counter_part {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter_iteam {
+    height: 250px;
+    width: 250px;
+    padding-top: 60px;
+    background: transparent;
+    border-radius: 20px;
+    text-align: center;
+    color: rgba(255, 249, 255, 0.678);
+    border: 9px solid rgba(245, 222, 179, 0.712);
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
